@@ -15,9 +15,9 @@ jobs:
       - name: Build Kernel
         uses: dabao1955/kernel_build_action@main
         with:
-          kernel-url: https://github.com/RainyXeon/android_kernel_xiaomi_mt6877
+          kernel-url: https://github.com/PixelOS-Devices/kernel_xiaomi_sm6150
           kernel-branch: susfs
-          config: ruby_defconfig
+          config: sweet_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
